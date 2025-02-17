@@ -1,0 +1,11 @@
+{
+    "channel_type":"kimi",
+    "get_markdown_article_model":"moonshot-v1-32k",
+    "rewrite_article_model":"moonshot-v1-32k",
+    "api_key":"sk-tw9xZrbFRpXXXXXXXXXX8yuZ",
+    "get_markdown_article_prompt":"",
+    "rewrite_article_prompt":"",
+    "web_content_url":"https://www.freebuf.com/news/421630121311.html",
+    "wx_appid":"wxc2XXXXXXXXXXX21fe4",
+    "wx_secret":"3e161102eXXXXXXXXXXXXX437dfd5"
+}
