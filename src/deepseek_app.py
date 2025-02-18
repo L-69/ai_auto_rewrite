@@ -1,7 +1,6 @@
 import os,json,requests,datetime
 from openai import OpenAI
 
-
 # 获取配置文件信息
 def config():
     config_file_path = os.path.join(script_dir, '../config.json')

@@ -51,7 +51,7 @@ def get_access_token(appid, appsecret):
 # 上传图片素材
 def upload_image(access_token):
     picture_dir = os.path.join(script_dir, '../data')
-    picture_file = os.path.join(picture_dir, f"{''.join(filter(str.isalnum, config()['web_content_url']))}.png")
+    picture_file = os.path.join(picture_dir, f"{''.join(filter(str.isalnum, 'test'))}.png")
     url = f"https://api.weixin.qq.com/cgi-bin/material/add_material?access_token={access_token}&type=image"
     with open(picture_file, 'rb') as file:
         files = {
